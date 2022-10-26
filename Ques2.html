@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Grid</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="q2styles.css">
+  <style>
+    body {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(43, 13, 240), rgb(170, 213, 251));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .main{
+    width: 400px;
+    margin: 10% auto;
+    border-radius: 4px;
+    padding: 2.5rem;
+    background-color: white;
+  }
+  .button {
+    background-color: rgb(40, 2, 255); 
+    color: white;
+    border: rgb(40, 2, 255);
+    border-radius: 4px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-size: 12px;
+  }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="main">
+        <h4 style="text-align:center">Contact us</h4>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="Name"></label>
+                  <input type="Name" class="form-control" id="Name" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="Email"></label>
+                  <input type="Email" class="form-control" id="Email" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="Message"></label>
+                  <textarea class="form-control" id="Message" placeholder="Message"></textarea>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div class="form-group col-md-12 text-center">
+                <button style="text-align:center" class="button" type="SEND" >SEND</button>
+            </div>
+        </div>
+        </form>
+    </div>
+  </main>
+</body>
+</html>
